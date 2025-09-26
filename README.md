@@ -2,48 +2,41 @@
 
 Um gerador de senhas em formato de frases usando dicionário português brasileiro.
 
-A passphrase generator using a Brazilian Portuguese dictionary.
-
-## Descrição / Description
+## Descrição
 
 Este projeto gera senhas seguras em formato de frases usando palavras aleatórias do dicionário português brasileiro. O script é interativo, permitindo ao usuário escolher quais palavras incluir na sua passphrase.
 
-This project generates secure passphrases using random words from a Brazilian Portuguese dictionary. The script is interactive, allowing the user to choose which words to include in their passphrase.
-
-## Características / Features
+## Características
 
 - Dicionário com **261.798 palavras** em português brasileiro
 - Geração aleatória de palavras
 - Interface interativa para seleção de palavras
 - Criação de senhas seguras e fáceis de memorizar
 - Script simples em Python 3
+- **Entropia de segurança:**
+  - 3 palavras: 54.0 bits
+  - 4 palavras: 72.0 bits
+  - 5 palavras: 90.0 bits
 
----
-
-- Dictionary with **261,798 words** in Brazilian Portuguese
-- Random word generation
-- Interactive interface for word selection
-- Creation of secure and memorable passwords
-- Simple Python 3 script
-
-## Requisitos / Requirements
+## Requisitos
 
 - Python 3.x
+- Não utiliza dependências externas (apenas a biblioteca padrão do Python)
 
-## Instalação / Installation
+## Instalação
 
-1. Clone o repositório / Clone the repository:
+1. Clone o repositório:
 ```bash
 git clone https://github.com/rpenido/passphrase-ptbr.git
 cd passphrase-ptbr
 ```
 
-2. Execute o script / Run the script:
+2. Execute o script:
 ```bash
 python3 passphrase.py
 ```
 
-## Como usar / How to use
+## Como usar
 
 1. Execute o script:
 ```bash
@@ -66,7 +59,7 @@ Do you want to add this word to your passphrase? (y/N): y
 Passphrase: exemplo palavra segura memoravel
 ```
 
-## Exemplo de uso / Usage example
+## Exemplo de uso
 
 ```bash
 $ python3 passphrase.py
@@ -80,9 +73,7 @@ Do you want to add this word to your passphrase? (y/N): y
 Passphrase: enriquecia apeteci impressionarias
 ```
 
-## Licença / License
+## Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
