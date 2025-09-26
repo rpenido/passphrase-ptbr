@@ -43,34 +43,34 @@ python3 passphrase.py
 python3 passphrase.py
 ```
 
-2. Digite o número de palavras desejadas na sua passphrase (padrão: 5):
+2. Digite o número de palavras desejadas na sua senha (padrão: 5):
 ```
-How many words do you want in your passphrase? (5): 4
+Quantas palavras você quer em sua senha? (5): 4
 ```
 
 3. Para cada palavra apresentada, digite `y` para aceitar ou pressione Enter para recusar:
 ```
-Word: exemplo
-Do you want to add this word to your passphrase? (y/N): y
+Palavra: exemplo
+Você quer adicionar esta palavra à sua senha? (y/N): y
 ```
 
-4. Ao final, sua passphrase será exibida:
+4. Ao final, sua senha será exibida:
 ```
-Passphrase: exemplo palavra segura memoravel
+Senha: exemplo palavra segura memoravel
 ```
 
 ## Exemplo de uso
 
 ```bash
 $ python3 passphrase.py
-How many words do you want in your passphrase? (5): 3
-Word: enriquecia
-Do you want to add this word to your passphrase? (y/N): y
-Word: apeteci
-Do you want to add this word to your passphrase? (y/N): y
-Word: impressionarias
-Do you want to add this word to your passphrase? (y/N): y
-Passphrase: enriquecia apeteci impressionarias
+Quantas palavras você quer em sua senha? (5): 3
+Palavra: enriquecia
+Você quer adicionar esta palavra à sua senha? (y/N): y
+Palavra: apeteci
+Você quer adicionar esta palavra à sua senha? (y/N): y
+Palavra: impressionarias
+Você quer adicionar esta palavra à sua senha? (y/N): y
+Senha: enriquecia apeteci impressionarias
 ```
 
 ## Licença
